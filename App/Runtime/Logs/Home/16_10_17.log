@@ -1,0 +1,2689 @@
+[ 2016-10-17T10:35:55+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+NOTIC: [8] Undefined index: Cart D:\AppServ\www\Shopping\App\Home\Common\CartHelper.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\AppServ\www\Shopping\App\Home\Controller\CartController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000635s ]
+NOTIC: [8] Undefined variable: products D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003263s ]
+
+[ 2016-10-17T10:36:01+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index/total/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004924s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000764s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002737s ]
+
+[ 2016-10-17T10:53:58+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index/total/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004876s ]
+
+[ 2016-10-17T11:49:49+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index/total/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003029s ]
+
+[ 2016-10-17T11:50:53+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index/total/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004791s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003864s ]
+
+[ 2016-10-17T11:50:54+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003489s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003181s ]
+
+[ 2016-10-17T11:50:57+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList/id/1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006208s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc LIMIT 0,1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `productcategories` WHERE `id` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.214073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.214379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003359s ]
+
+[ 2016-10-17T11:50:59+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/AddToCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004789s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `products` WHERE `id` = 'CF308164-78B2-84E0-7DB8-CB1CC58973E1' LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: Cart D:\AppServ\www\Shopping\App\Home\Common\CartHelper.class.php 第 37 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\AppServ\www\Shopping\App\Home\Common\CartHelper.class.php 第 111 行.
+
+[ 2016-10-17T11:51:01+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList/id/1AF68FD7-88E5-F833-C606-CAA9A5080239/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004160s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc LIMIT 1,1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `productcategories` WHERE `id` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2016-10-17T11:51:03+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/AddToCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006137s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `products` WHERE `id` = '9A350C1F-5737-878A-F5A2-A26975CA23E6' LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2016-10-17T11:51:05+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/AddToCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005131s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `products` WHERE `id` = '9A350C1F-5737-878A-F5A2-A26975CA23E6' LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2016-10-17T11:51:08+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000724s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003177s ]
+
+[ 2016-10-17T11:51:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/HandleLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003434s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' AND `password` = '1' LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2016-10-17T11:51:13+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002351s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002988s ]
+
+[ 2016-10-17T11:51:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Undefined variable: products D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.245715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.246043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002939s ]
+
+[ 2016-10-17T11:51:30+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index/total/4671
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000793s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003479s ]
+
+[ 2016-10-17T11:51:56+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/SettlementOrderHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003879s ]
+SQL: SHOW COLUMNS FROM `orderheaders` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `orderheaders` ORDER BY sortid desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `orderheaders` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: validate D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `orderheaders` (`contactname`,`contactphoneno`,`contactaddress`,`totalprice`,`memo`,`sortid`,`orderheaders_userid`) VALUES ('张三','12345678','柳州','0','圆通','1','11') [ RunTime:0.0160s ]
+SQL: SELECT * FROM `orderheaders` ORDER BY sortid desc LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-10-17T11:53:06+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/SettlementOrderHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009342s ]
+SQL: SHOW COLUMNS FROM `orderheaders` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `orderheaders` ORDER BY sortid desc LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `orderheaders` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `orderheaders` (`contactname`,`contactphoneno`,`contactaddress`,`totalprice`,`memo`,`sortid`,`orderheaders_userid`) VALUES ('张三','12345678','柳州','0','圆通','2','11')
+ERR: 1062:Duplicate entry '' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `orderheaders` (`contactname`,`contactphoneno`,`contactaddress`,`totalprice`,`memo`,`sortid`,`orderheaders_userid`) VALUES ('张三','12345678','柳州','0','圆通','2','11')
+
+[ 2016-10-17T11:56:27+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/SettlementOrderHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006521s ]
+SQL: SHOW COLUMNS FROM `orderheaders` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `orderheaders` ORDER BY sortid desc LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8192] Non-static method Home\Common\NetAddress::getLocalHost() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 23 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\AppServ\www\Shopping\App\Home\Common\NetAddress.class.php 第 16 行.
+NOTIC: [8192] Non-static method Home\Common\System::currentTimeMillis() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\AppServ\www\Shopping\App\Home\Common\System.class.php 第 13 行.
+NOTIC: [8192] Non-static method Home\Common\Random::nextLong() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `orderheaders` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: validate D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `orderheaders` (`id`,`contactname`,`contactphoneno`,`contactaddress`,`totalprice`,`memo`,`sortid`,`orderheaders_userid`) VALUES ('B8772677-E2AB-F581-E037-2056E6713BC7','张三','12345678','柳州','0','圆通','2','11') [ RunTime:0.0046s ]
+SQL: SELECT * FROM `orderheaders` ORDER BY sortid desc LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] Non-static method Home\Common\NetAddress::getLocalHost() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 23 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\AppServ\www\Shopping\App\Home\Common\NetAddress.class.php 第 16 行.
+NOTIC: [8192] Non-static method Home\Common\System::currentTimeMillis() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\AppServ\www\Shopping\App\Home\Common\System.class.php 第 13 行.
+NOTIC: [8192] Non-static method Home\Common\Random::nextLong() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+
+[ 2016-10-17T11:57:15+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/SettlementOrderHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004504s ]
+SQL: SHOW COLUMNS FROM `orderheaders` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `orderheaders` ORDER BY sortid desc LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8192] Non-static method Home\Common\NetAddress::getLocalHost() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 23 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\AppServ\www\Shopping\App\Home\Common\NetAddress.class.php 第 16 行.
+NOTIC: [8192] Non-static method Home\Common\System::currentTimeMillis() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\AppServ\www\Shopping\App\Home\Common\System.class.php 第 13 行.
+NOTIC: [8192] Non-static method Home\Common\Random::nextLong() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `orderheaders` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: validate D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `orderheaders` (`id`,`contactname`,`contactphoneno`,`contactaddress`,`totalprice`,`memo`,`sortid`,`orderheaders_userid`) VALUES ('0CABE1B1-0C3F-5092-B996-1B1B06D8A9A3','张三','12345678','柳州','0','圆通','3','11') [ RunTime:0.0101s ]
+SQL: SELECT * FROM `orderheaders` ORDER BY sortid desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `orderdetails` [ RunTime:0.0028s ]
+NOTIC: [8192] Non-static method Home\Common\NetAddress::getLocalHost() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 23 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\AppServ\www\Shopping\App\Home\Common\NetAddress.class.php 第 16 行.
+NOTIC: [8192] Non-static method Home\Common\System::currentTimeMillis() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\AppServ\www\Shopping\App\Home\Common\System.class.php 第 13 行.
+NOTIC: [8192] Non-static method Home\Common\Random::nextLong() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+NOTIC: [8] Undefined index: validate D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `orderdetails` (`id`,`price`,`amount`,`orderdetails_productsid`,`orderdetails_orderheaderid`) VALUES ('59D0EBEB-320A-A255-9E8D-8D16AA364075','23','1','CF308164-78B2-84E0-7DB8-CB1CC58973E1','0CABE1B1-0C3F-5092-B996-1B1B06D8A9A3') [ RunTime:0.0041s ]
+
+[ 2016-10-17T11:57:15+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000686s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002764s ]
+
+[ 2016-10-17T11:57:47+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003340s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\AppServ\www\Shopping\App\Home\Controller\CartController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] Undefined variable: products D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003279s ]
+
+[ 2016-10-17T11:57:53+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index/total/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002922s ]
+
+[ 2016-10-17T12:20:49+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005253s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005196s ]
+
+[ 2016-10-17T12:20:51+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004682s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002741s ]
+
+[ 2016-10-17T12:20:53+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002958s ]
+
+[ 2016-10-17T12:21:01+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003995s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\AppServ\www\Shopping\App\Home\Controller\CartController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Undefined variable: products D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006070s ]
+
+[ 2016-10-17T12:24:44+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009494s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\AppServ\www\Shopping\App\Home\Controller\CartController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] Undefined variable: products D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 68 行.
+NOTIC: [8] Undefined variable: mBtn D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.236046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002735s ]
+
+[ 2016-10-17T12:25:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004197s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005199s ]
+
+[ 2016-10-17T12:25:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList/id/1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005883s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc LIMIT 0,1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `productcategories` WHERE `id` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004538s ]
+
+[ 2016-10-17T12:25:23+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/AddToCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005370s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `products` WHERE `id` = 'CF308164-78B2-84E0-7DB8-CB1CC58973E1' LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2016-10-17T12:25:30+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000477s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001040s ]
+NOTIC: [8] Undefined variable: products D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003504s ]
+
+[ 2016-10-17T12:28:55+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000444s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Undefined variable: products D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004053s ]
+
+[ 2016-10-17T12:29:21+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005593s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:29:48+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [4096] Object of class Home\Controller\OrderHeaderController could not be converted to string D:\AppServ\www\Shopping\App\Home\Controller\OrderHeaderController.class.php 第 25 行.
+NOTIC: [8] Object of class Home\Controller\OrderHeaderController to string conversion D:\AppServ\www\Shopping\App\Home\Controller\OrderHeaderController.class.php 第 25 行.
+
+[ 2016-10-17T12:29:55+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003902s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Undefined variable: products D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005284s ]
+
+[ 2016-10-17T12:29:59+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000272s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004586s ]
+NOTIC: [4096] Object of class Home\Controller\OrderHeaderController could not be converted to string D:\AppServ\www\Shopping\App\Home\Controller\OrderHeaderController.class.php 第 25 行.
+NOTIC: [8] Object of class Home\Controller\OrderHeaderController to string conversion D:\AppServ\www\Shopping\App\Home\Controller\OrderHeaderController.class.php 第 25 行.
+
+[ 2016-10-17T12:30:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003285s ]
+
+[ 2016-10-17T12:31:46+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006135s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:34:18+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004714s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:34:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003668s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:35:29+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003407s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:36:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002385s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:36:13+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005169s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:36:15+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000233s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004375s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:36:46+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004298s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:36:51+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003303s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:37:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/register')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006754s ]
+ERR: 非法操作:{:U('Home
+
+[ 2016-10-17T12:37:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/register')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004021s ]
+ERR: 非法操作:{:U('Home
+
+[ 2016-10-17T12:37:23+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/register')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003824s ]
+ERR: 非法操作:{:U('Home
+
+[ 2016-10-17T12:37:24+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/Login')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004038s ]
+ERR: 非法操作:{:U('Home
+
+[ 2016-10-17T12:37:25+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/User/index')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003949s ]
+ERR: 非法操作:{:U('Home
+
+[ 2016-10-17T12:37:25+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/User/%7B:U('Home/User/logout')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005464s ]
+ERR: 非法操作:{:U('Home
+
+[ 2016-10-17T12:37:26+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/User/%7B:U('Home/User/%7B:U('Home/OrderHeader/index')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004787s ]
+ERR: 非法操作:{:U('Home
+
+[ 2016-10-17T12:37:59+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/User/%7B:U('Home/User/%7B:U('Home/OrderHeader/index')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004441s ]
+ERR: 非法操作:{:U('Home
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:38:01+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/User/%7B:U('Home/User/logout')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004326s ]
+ERR: 非法操作:{:U('Home
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:38:17+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005395s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:38:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004320s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:41:31+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005941s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:41:32+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/User/%7B:U('Home/User/logout')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004134s ]
+ERR: 非法操作:{:U('Home
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:41:34+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/User/index')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004245s ]
+ERR: 非法操作:{:U('Home
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:41:35+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/Login')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004206s ]
+ERR: 非法操作:{:U('Home
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:41:36+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/%7B:U('Home/Index/register')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004172s ]
+ERR: 非法操作:{:U('Home
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:41:37+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/%7B:U('Home/Index/register')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004029s ]
+ERR: 非法操作:{:U('Home
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:41:38+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/%7B:U('Home/Index/register')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003817s ]
+ERR: 非法操作:{:U('Home
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:41:39+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:45:23+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Undefined variable: products D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003353s ]
+
+[ 2016-10-17T12:45:40+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004908s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:41+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004471s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:42+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005251s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:44+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005773s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:45+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004397s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:46+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003183s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:47+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003210s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:48+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:50+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003548s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:51+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:52+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003203s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:54+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:56+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003689s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:45:58+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004031s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:00+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004543s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:02+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:04+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:06+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002705s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:08+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003494s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:10+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002509s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:14+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004170s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:16+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004255s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:18+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005452s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004471s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004127s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:24+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004058s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:26+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005889s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:28+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004473s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:30+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:32+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004756s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:34+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002721s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:36+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:38+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:40+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:42+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:44+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004274s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:46+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003680s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:48+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004380s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:50+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003243s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:52+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:54+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003955s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:56+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002796s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:46:58+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003424s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:00+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002842s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:02+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002534s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:04+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004045s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:06+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:08+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003660s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:10+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002987s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:14+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003301s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:16+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004269s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:18+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004319s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004328s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:24+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003228s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:26+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002762s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:28+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:30+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004027s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:32+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002413s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:34+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020207s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:36+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004077s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:38+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005528s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:40+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004021s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:42+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004123s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:44+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002916s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:46+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004252s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:48+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004317s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:50+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004438s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:52+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004745s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:54+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:56+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004334s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:47:58+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002770s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:48:00+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004046s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:48:02+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 43 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 46 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\App\Home\View\Public\exception.html 第 49 行.
+
+[ 2016-10-17T12:48:03+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003088s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:48:06+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003523s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:48:07+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000254s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003641s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:48:09+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004009s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:50:02+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004670s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:50:04+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003960s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:50:05+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004226s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:50:05+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:50:30+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004021s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:50:33+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003715s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:51:51+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004069s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:51:53+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000228s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004193s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:51:54+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004853s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:51:55+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004416s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:51:56+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004795s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:52:39+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004923s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:52:40+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003479s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:52:41+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005270s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:52:42+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003967s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:52:42+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003338s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:52:43+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004047s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:52:44+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004039s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:52:45+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004188s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:53:13+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004224s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:53:14+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004080s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:53:15+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003214s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:53:17+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006177s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:53:23+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000740s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005485s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:54:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:54:13+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003808s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:54:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:54:23+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003503s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:54:24+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005792s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:54:25+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004371s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:54:26+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004651s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [2] include(): Filename cannot be empty D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-10-17T12:54:47+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006098s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:54:48+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000420s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004150s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:55:52+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:57:23+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004771s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:57:25+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000315s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008687s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:57:25+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005304s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T12:57:40+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006353s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:02:36+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:02:36+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/__PUBLIC__/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-10-17T13:02:37+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:02:37+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/__PUBLIC__/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-10-17T13:02:39+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:02:41+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/__PUBLIC__/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-10-17T13:02:41+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/__PUBLIC__/css/__PUBLIC__/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006462s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-10-17T13:02:51+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/__PUBLIC__/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005287s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-10-17T13:02:51+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/__PUBLIC__/css/__PUBLIC__/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-10-17T13:03:26+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002367s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:03:26+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/Public/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+ERR: 非法操作:Public
+
+[ 2016-10-17T13:03:29+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004648s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:04:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002616s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:04:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/__PUBLIC__/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003461s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-10-17T13:04:15+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003327s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:04:46+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000218s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014621s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:04:46+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/__PUBLIC__/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-10-17T13:05:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:05:14+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003582s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:05:49+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003534s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:06:04+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:06:21+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002736s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:06:33+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003560s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:07:16+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004228s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:07:41+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:07:51+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003033s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:09:07+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005659s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Undefined variable: message D:\AppServ\www\Shopping\Public\exception.html 第 24 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\Public\exception.html 第 34 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\Public\exception.html 第 34 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\Public\exception.html 第 40 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\Public\exception.html 第 45 行.
+
+[ 2016-10-17T13:10:08+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005285s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Undefined variable: message D:\AppServ\www\Shopping\Public\exception.html 第 24 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\Public\exception.html 第 34 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\Public\exception.html 第 34 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\Public\exception.html 第 40 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\Public\exception.html 第 45 行.
+
+[ 2016-10-17T13:10:09+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004077s ]
+ERR: 参数错误或者未定义:total
+NOTIC: [8] Undefined variable: message D:\AppServ\www\Shopping\Public\exception.html 第 24 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\Public\exception.html 第 34 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\Public\exception.html 第 34 行.
+NOTIC: [8] Undefined variable: waitSecond D:\AppServ\www\Shopping\Public\exception.html 第 40 行.
+NOTIC: [8] Undefined variable: jumpUrl D:\AppServ\www\Shopping\Public\exception.html 第 45 行.
+
+[ 2016-10-17T13:10:55+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006210s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:11:01+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006268s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:11:42+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004926s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:11:52+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:12:16+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003749s ]
+ERR: 参数错误或者未定义:total
+
+[ 2016-10-17T13:13:37+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004064s ]
+ERR: 参数错误或者未定义:total
+

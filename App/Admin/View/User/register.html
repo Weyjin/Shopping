@@ -1,0 +1,78 @@
+<!-- 引入模板页 -->
+<extend name="Shared/_Layout"/>
+<block name="title">用户注册</block>
+<block name="RenderBody">
+
+    <!-- 引入模板页 -->
+    <extend name="Shared/_Layout"/>
+    <block name="RenderBody">
+
+        <div style="width: 500px;margin: 20px;">
+            <form role="form" method="post" action="{:U('Home/User/registerHandle')}">
+                <div class="form-group">
+                    <table>
+                        <tr style="line-height:20px;">
+                            <td width="70px">
+                                <label>Email</label>
+                            </td>
+                            <td>
+                                <input type="email" class="form-control" id="email"name="email" placeholder="邮箱">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
+                        <tr>
+                            <td width="70px">
+                                <label>昵&nbsp;&nbsp;称</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" id="name"name="name" placeholder="姓名">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
+                        <tr>
+                            <td width="70px">
+                                <label>密&nbsp;&nbsp;码</label>
+                            </td>
+                            <td>
+                                <input type="password" class="form-control" id="password"name="password" placeholder="密码">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
+                        <tr>
+                            <td width="70px">
+                                <label>确认密码</label>
+                            </td>
+                            <td>
+                                <input type="password" class="form-control" id="Confirmpassword"name="Confirmpassword" placeholder="确认密码">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
+                        <tr>
+                            <td width="70px">
+
+                            </td>
+                            <td align="right">
+                                &nbsp;<button type="submit" class="btn btn-primary">提交</button>
+                            </td>
+                        </tr>
+                    </table>
+
+
+
+                </div>
+
+            </form>
+        </div>
+    </block>
+</block>

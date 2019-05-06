@@ -1,0 +1,42 @@
+<!-- 引入模板页 -->
+<extend name="Shared/_Layout"/>
+<block name="title">会员列表</block>
+<block name="link">
+    <script type="text/javascript" src="__PUBLIC__/js/base.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/prototype.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/mootools.js"></script>
+    <load href="__PUBLIC__/js/ThinkAjax.js"/>
+</block>
+<block name="RenderBody">
+
+
+    <table class="table">
+        <caption>会员列表</caption>
+        <thead>
+        <tr>
+
+            <th>邮箱</th>
+            <th>姓名</th>
+            <th>注册时间</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {$mList}
+        </tbody>
+    </table>
+
+    <script>
+        function resetPassword(i) {
+
+            ThinkAjax.send("{:U('Admin/User/resetPasswordHandle')}", 'ajax=1&user_id=' + i, complete, '')
+        }
+        function complete(data, status) {
+            if (status == 1) {
+                alert('重置密码成功');
+            } else {
+                alert('重置密码失败');
+            }
+        }
+    </script>
+</block>

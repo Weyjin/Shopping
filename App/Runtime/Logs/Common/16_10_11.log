@@ -1,0 +1,12 @@
+[ 2016-10-11T21:33:14+08:00 ] 127.0.0.1 /Shopping/index.php/User/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004924s ]
+ERR: 无法加载模块:User
+
+[ 2016-10-11T21:33:46+08:00 ] 127.0.0.1 /Shopping/index.php/User/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002950s ]
+ERR: 无法加载模块:User
+

@@ -1,0 +1,24 @@
+[ 2016-10-12T18:39:09+08:00 ] 127.0.0.1 /Shopping/index.php/Shopping/index.php/Home/Index/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002244s ]
+ERR: 无法加载模块:Shopping
+
+[ 2016-10-12T18:39:39+08:00 ] 127.0.0.1 /Shopping/index.php/Shopping/index.php/Home/Index/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002200s ]
+ERR: 无法加载模块:Shopping
+
+[ 2016-10-12T18:40:30+08:00 ] 127.0.0.1 /Shopping/index.php/Shopping/index.php/Admin/Index/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002832s ]
+ERR: 无法加载模块:Shopping
+
+[ 2016-10-12T19:13:32+08:00 ] 127.0.0.1 /Shopping/index.php/Homle/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002988s ]
+ERR: 无法加载模块:Homle
+

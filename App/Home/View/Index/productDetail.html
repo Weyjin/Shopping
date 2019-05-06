@@ -1,0 +1,53 @@
+<!-- 引入模板页 -->
+<extend name="Shared/_Layout"/>
+<block name="title">产品详情</block>
+<block name="li">
+
+
+</block>
+<block name="RenderBody">
+
+    <h2>您正在浏览【{$mProduct.name}】商品详细信息</h2>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>商品简介</th>
+                <td>{$mProduct.description}</td>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>商品价格</th>
+                <td>￥{$mProduct.price}</td>
+
+            </tr>
+            <tr>
+                <th>上架时间</th>
+                <td>{$mProduct.publishon}</td>
+
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>
+
+    <div class="row show-grid">
+    <div class="col-md-10 col-md-offset-6">
+     {$mCart}
+    </div>
+    </div>
+
+    <div class="row show-grid">
+
+    <span class="col-md-1" style="width:200px;">
+         <a href="{:U('Home/Index/index')}">返回首页</a>&nbsp;|&nbsp;
+        <a href="{:U('Home/Index/index')}">返回产品列表</a>
+
+    </span>
+    </div>
+    </p>
+
+
+</block>

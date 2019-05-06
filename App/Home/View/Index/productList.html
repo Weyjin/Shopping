@@ -1,0 +1,74 @@
+<!-- 引入模板页 -->
+<extend name="Shared/_Layout"/>
+<block name="title">产品列表</block>
+
+<block name="link">
+    <link rel="stylesheet" href="__PUBLIC__/css/productList.css" type="text/css">
+    <script type="text/javascript" src="__PUBLIC__/js/base.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/prototype.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/mootools.js"></script>
+    <load href="__PUBLIC__/js/ThinkAjax.js"/>
+</block>
+
+<block name="li">
+
+</block>
+<block name="RenderBody">
+
+
+    <script>
+        function buy(i) {
+
+            ThinkAjax.send("{:U('Home/Cart/AddToCartHandle')}", 'ajax=1&productsid=' + i, complete, '')
+        }
+        function complete(data, status) {
+            if (status == 1) {
+                alert('添加购物车成功');
+            } else {
+                alert('添加购物车失败');
+            }
+        }
+    </script>
+
+
+    <div class="form-group">
+
+
+        <h2>【{$ProductCategoryName}】列表信息</h2>
+        <table class="table">
+            <tr>
+                <th>
+                    商品名称
+                </th>
+                <th>
+                    商品简介
+                </th>
+
+                <th>
+                    商品价格
+                </th>
+                <th>
+                    添加购物车
+                </th>
+
+            </tr>
+            <foreach name="list" item="m">
+                <tr>
+                    <td><a href="{:U('Home/Index/productDetail',array('id'=>$m['id']))}">{$m.name}</a></td>
+                    <td>{$m.description}</td>
+                    <td>{$m.price}</td>
+                    <td><a href="#" onclick="buy('{$m.id}')">添加</a></td>
+                </tr>
+            </foreach>
+        </table>
+
+    </div>
+    <div class="row show-grid">
+        <a href="{:U('Home/Index/index')}" class="col-md-1">返回首页</a>
+    </div>
+
+    <div class="page">
+        　　{$page}
+    </div>
+
+</block>

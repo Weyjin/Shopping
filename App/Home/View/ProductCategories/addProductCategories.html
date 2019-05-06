@@ -1,0 +1,60 @@
+
+
+
+    <!-- 引入模板页 -->
+    <extend name="Shared/_Layout"/>
+    <block name="title">添加产品分类</block>
+    <block name="RenderBody">
+            <form role="form" method="post" class="form-horizontal" action="{:U('Home/ProductCategories/addProductCategoriesHandle')}">
+                <div class="form-group">
+                    <table>
+                        <tr style="line-height:20px;">
+                            <td width="70px">
+                                <label>产品名称</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" id="ProductCategoriesName"name="ProductCategoriesName" placeholder="请输入产品名称">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
+                        <tr>
+                            <td width="70px">
+
+                            </td>
+                            <td align="right">
+                                &nbsp;<button type="submit" class="btn btn-primary">添加</button>
+                            </td>
+                        </tr>
+                    </table>
+
+
+
+                </div>
+
+            </form>
+           <hr/>
+        <table class="table table-hover">
+            <caption>产品分类</caption>
+            <thead>
+            <tr>
+                <th>分类名称</th>
+                <th>操作</th>
+
+            </tr>
+            </thead>
+            <tbody>
+<!--
+                <foreach name="mQry" item="m">
+                    <tr>
+                    <td>{$m.name}</td>
+                    <td><a href="{:U('Home/ProductCategories/deleteProductCategoriesHandle',array('id'=>$m['id']))}">删除</a></td>
+                    </tr>
+                </foreach>
+
+-->
+            {$mQry}
+            </tbody>
+        </table>
+    </block>

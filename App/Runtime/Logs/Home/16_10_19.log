@@ -1,0 +1,1368 @@
+[ 2016-10-19T15:10:52+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.038019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038221s ]
+NOTIC: [8] Undefined index: user D:\AppServ\www\Shopping\App\Home\Common\AuthController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0908s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003568s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.289860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.290015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025173s ]
+
+[ 2016-10-19T15:10:55+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024459s ]
+
+[ 2016-10-19T15:14:32+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2016-10-19T15:14:40+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/HandleLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `user` WHERE `email` = 'admin@.com' AND `password` = '123456' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-19T15:14:40+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+NOTIC: [8] Undefined index: user D:\AppServ\www\Shopping\App\Home\Common\AuthController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001244s ]
+
+[ 2016-10-19T15:14:44+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005398s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000740s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003931s ]
+
+[ 2016-10-19T15:18:58+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005202s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004207s ]
+
+[ 2016-10-19T15:19:03+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005780s ]
+NOTIC: [8] Undefined index: Cart D:\AppServ\www\Shopping\App\Home\Common\CartHelper.class.php 第 62 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\AppServ\www\Shopping\App\Home\Controller\CartController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Undefined variable: products D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 68 行.
+NOTIC: [8] Undefined variable: mBtn D:\AppServ\www\Shopping\App\Runtime\Cache\Home\731395bb3c99f3ca3b7ff733753ab9bc.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004304s ]
+
+[ 2016-10-19T15:19:05+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003878s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `user` WHERE `email` = 'admin@.com' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003167s ]
+
+[ 2016-10-19T15:21:37+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.178358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004614s ]
+
+[ 2016-10-19T15:34:36+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
+
+[ 2016-10-19T15:34:39+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004939s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\AppServ\www\Shopping\App\Home\Controller\UserController.class.php 第 63 行.
+
+[ 2016-10-19T15:34:40+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003485s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004088s ]
+
+[ 2016-10-19T15:35:42+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003923s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003609s ]
+
+[ 2016-10-19T15:35:43+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000616s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001507s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006714s ]
+
+[ 2016-10-19T15:35:44+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000800s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-10-19T15:35:50+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/HandleLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003560s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' AND `password` = '123456' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2016-10-19T15:35:50+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003148s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003416s ]
+
+[ 2016-10-19T15:35:53+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000807s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003430s ]
+
+[ 2016-10-19T15:35:58+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/EditNameHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004408s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: UPDATE `user` SET `name`='张三a' WHERE `id` = 11 [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000751s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+
+[ 2016-10-19T15:35:59+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004067s ]
+ERR: 非法操作:register
+
+[ 2016-10-19T15:36:03+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006237s ]
+ERR: 非法操作:register
+
+[ 2016-10-19T15:36:09+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000791s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004285s ]
+
+[ 2016-10-19T15:36:15+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004078s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000622s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003236s ]
+
+[ 2016-10-19T15:37:25+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005783s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003576s ]
+
+[ 2016-10-19T15:37:27+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000445s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000949s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004525s ]
+
+[ 2016-10-19T15:37:31+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/EditNameHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003750s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: UPDATE `user` SET `name`='张三aa' WHERE `id` = 11 [ RunTime:0.0050s ]
+
+[ 2016-10-19T15:37:31+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002911s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002809s ]
+
+[ 2016-10-19T15:37:34+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000618s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005070s ]
+
+[ 2016-10-19T15:37:38+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/EditNameHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003719s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+
+[ 2016-10-19T15:37:39+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004591s ]
+ERR: 非法操作:register
+
+[ 2016-10-19T15:38:47+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004586s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000778s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003864s ]
+
+[ 2016-10-19T15:38:49+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000863s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003767s ]
+
+[ 2016-10-19T15:38:53+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/EditNameHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003239s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000598s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001970s ]
+
+[ 2016-10-19T15:39:10+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002592s ]
+
+[ 2016-10-19T15:39:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000760s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003958s ]
+
+[ 2016-10-19T15:40:15+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005747s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000787s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.168496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003969s ]
+
+[ 2016-10-19T15:40:18+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005343s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000535s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003320s ]
+
+[ 2016-10-19T15:40:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001541s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003228s ]
+
+[ 2016-10-19T15:40:24+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/EditNameHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003417s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001577s ]
+
+[ 2016-10-19T15:40:25+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000942s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004168s ]
+
+[ 2016-10-19T15:40:32+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005698s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000603s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004291s ]
+
+[ 2016-10-19T15:42:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001948s ]
+
+[ 2016-10-19T15:45:15+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005659s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000609s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003680s ]
+
+[ 2016-10-19T15:45:51+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003994s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000717s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004699s ]
+
+[ 2016-10-19T15:45:52+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] Undefined variable: user D:\AppServ\www\Shopping\App\Runtime\Cache\Home\28c853315d8ff7d8114d748c9c5a5660.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003760s ]
+
+[ 2016-10-19T15:46:25+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003267s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000613s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003432s ]
+
+[ 2016-10-19T15:46:27+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined variable: user D:\AppServ\www\Shopping\App\Runtime\Cache\Home\28c853315d8ff7d8114d748c9c5a5660.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003651s ]
+
+[ 2016-10-19T15:54:56+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined variable: user D:\AppServ\www\Shopping\App\Runtime\Cache\Home\28c853315d8ff7d8114d748c9c5a5660.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003899s ]
+
+[ 2016-10-19T15:54:57+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007975s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003842s ]
+
+[ 2016-10-19T15:54:59+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004913s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Undefined variable: user D:\AppServ\www\Shopping\App\Runtime\Cache\Home\28c853315d8ff7d8114d748c9c5a5660.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003593s ]
+
+[ 2016-10-19T15:55:03+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editPasswordHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-10-19T15:55:05+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Undefined variable: user D:\AppServ\www\Shopping\App\Runtime\Cache\Home\28c853315d8ff7d8114d748c9c5a5660.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004560s ]
+
+[ 2016-10-19T15:55:14+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editPasswordHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003104s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+
+[ 2016-10-19T15:55:15+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined variable: user D:\AppServ\www\Shopping\App\Runtime\Cache\Home\28c853315d8ff7d8114d748c9c5a5660.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004016s ]
+
+[ 2016-10-19T15:55:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editPasswordHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `user` SET `password`='1' WHERE `id` = 11 [ RunTime:0.0112s ]
+
+[ 2016-10-19T15:55:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002887s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002667s ]
+
+[ 2016-10-19T15:55:26+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/editName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003076s ]
+
+[ 2016-10-19T15:55:31+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/EditNameHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004126s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: UPDATE `user` SET `name`='张三' WHERE `id` = 11 [ RunTime:0.0051s ]
+
+[ 2016-10-19T15:55:32+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002826s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `user` WHERE `email` = '12@ad.com' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000734s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003899s ]
+
+[ 2016-10-19T15:56:15+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003880s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000710s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003153s ]
+
+[ 2016-10-19T15:56:17+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004868s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0100s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000667s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001468s ]
+
+[ 2016-10-19T15:56:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004280s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004795s ]
+
+[ 2016-10-19T15:56:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004342s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\AppServ\www\Shopping\App\Home\Controller\UserController.class.php 第 99 行.
+
+[ 2016-10-19T15:56:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003460s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002705s ]
+
+[ 2016-10-19T21:55:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.062622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.062795s ]
+NOTIC: [8] Undefined index: user D:\AppServ\www\Shopping\App\Home\Common\AuthController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0443s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+
+[ 2016-10-19T21:55:15+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008706s ]
+
+[ 2016-10-19T21:58:40+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+NOTIC: [8] Undefined index: user D:\AppServ\www\Shopping\App\Home\Common\AuthController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-10-19T21:58:43+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003991s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000756s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005257s ]
+

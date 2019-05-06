@@ -1,0 +1,41 @@
+<extend name="Shared/_Layout"/>
+<block name="title">用户信息</block>
+<block name="li">
+
+</block>
+<block name="RenderBody">
+
+
+    <div class="form-horizontal">
+
+        <div class="form-group">
+            <label class="control-label col-md-2">邮箱</label>
+            <div class="control-label col-md-2">
+                {$user.email}
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">昵称</label>
+            <div class="control-label col-md-2">
+                {$user.name}
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">注册时间</label>
+            <div class="control-label col-md-2">
+                {$user.registeron}
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-4">
+                <a href="editName">编辑昵称</a>&nbsp;|&nbsp;
+                <a href="{:U('Home/User/editPassword')}">修改密码</a>
+            </div>
+        </div>
+    </div>
+
+
+</block>

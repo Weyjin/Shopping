@@ -1,0 +1,1103 @@
+[ 2016-10-12T18:38:54+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003731s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.196632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.197058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003123s ]
+
+[ 2016-10-12T18:39:02+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004335s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000626s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.201527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.201916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003067s ]
+
+[ 2016-10-12T18:39:09+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005342s ]
+
+[ 2016-10-12T18:39:39+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004074s ]
+
+[ 2016-10-12T18:40:25+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004434s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000638s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003452s ]
+
+[ 2016-10-12T18:40:30+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005361s ]
+
+[ 2016-10-12T18:41:29+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005444s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000772s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.262275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.262865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006608s ]
+
+[ 2016-10-12T18:41:33+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000897s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003820s ]
+
+[ 2016-10-12T18:41:34+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004759s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003248s ]
+
+[ 2016-10-12T18:41:36+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004002s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000643s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003829s ]
+
+[ 2016-10-12T18:41:38+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003921s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004018s ]
+
+[ 2016-10-12T18:42:13+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007235s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004697s ]
+
+[ 2016-10-12T18:42:15+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004422s ]
+
+[ 2016-10-12T18:42:28+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003902s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004273s ]
+
+[ 2016-10-12T18:42:32+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005191s ]
+
+[ 2016-10-12T18:44:22+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000635s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.162579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004996s ]
+
+[ 2016-10-12T18:44:26+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004089s ]
+
+[ 2016-10-12T18:44:50+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003944s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000777s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003872s ]
+
+[ 2016-10-12T18:44:54+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003946s ]
+
+[ 2016-10-12T18:49:42+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000756s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004357s ]
+
+[ 2016-10-12T18:50:31+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002838s ]
+
+[ 2016-10-12T18:50:34+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/ProductCategories/addProductCategories
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005092s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000653s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.203268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.203663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003745s ]
+
+[ 2016-10-12T18:50:36+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Products/addProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004815s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000671s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003395s ]
+
+[ 2016-10-12T18:50:37+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002875s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002189s ]
+
+[ 2016-10-12T18:50:42+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/ProductCategories/addProductCategories
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004269s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003403s ]
+
+[ 2016-10-12T18:50:44+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Products/addProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005498s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003943s ]
+
+[ 2016-10-12T18:51:20+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000244s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007612s ]
+
+[ 2016-10-12T18:55:12+08:00 ] 127.0.0.1 /Shopping/Admin/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000451s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005830s ]
+
+[ 2016-10-12T18:59:28+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004066s ]
+
+[ 2016-10-12T18:59:34+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006809s ]
+
+[ 2016-10-12T19:07:06+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000803s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004596s ]
+
+[ 2016-10-12T19:12:59+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004286s ]
+
+[ 2016-10-12T19:13:01+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003940s ]
+
+[ 2016-10-12T19:13:05+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/ProductCategories/addProductCategories
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005120s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.188937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.189378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004734s ]
+
+[ 2016-10-12T19:13:10+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Products/addProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003931s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000884s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003591s ]
+
+[ 2016-10-12T19:13:12+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/ProductCategories/addProductCategories
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004009s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002679s ]
+
+[ 2016-10-12T19:13:13+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003917s ]
+
+[ 2016-10-12T19:13:26+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003970s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000741s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004028s ]
+
+[ 2016-10-12T19:14:33+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004002s ]
+
+[ 2016-10-12T19:14:35+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000804s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005650s ]
+
+[ 2016-10-12T19:26:45+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004778s ]
+
+[ 2016-10-12T19:26:46+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003884s ]
+
+[ 2016-10-12T22:57:26+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000438s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004172s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;users&quot;item=&quot;u&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                       ^ D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;users&quot;item=&quot;u&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                       ^ D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name="users"item="u"
+
+[ 2016-10-12T22:57:41+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003515s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;users&quot;item=&quot;u&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                       ^ D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;users&quot;item=&quot;u&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                       ^ D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name="users"item="u"
+
+[ 2016-10-12T22:57:43+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003328s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0079s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;users&quot;item=&quot;u&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                       ^ D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;users&quot;item=&quot;u&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                       ^ D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name="users"item="u"
+
+[ 2016-10-12T22:58:00+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004087s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0093s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;users&quot;item=&quot;u&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                       ^ D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;users&quot;item=&quot;u&quot; /&gt;&lt;/tpl&gt; D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                       ^ D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name="users"item="u"
+
+[ 2016-10-12T22:58:29+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004144s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002932s ]
+
+[ 2016-10-12T22:58:31+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007249s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004902s ]
+
+[ 2016-10-12T22:59:25+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `auth_group` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2016-10-12T22:59:27+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `auth_group` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2016-10-12T23:00:13+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004174s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `auth_group` LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003887s ]
+
+[ 2016-10-12T23:01:27+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003066s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `auth_group` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003603s ]
+
+[ 2016-10-12T23:01:29+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000238s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008565s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `auth_group` LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003366s ]
+
+[ 2016-10-12T23:01:53+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003930s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `auth_group` LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003375s ]
+
+[ 2016-10-12T23:02:16+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `auth_group` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2016-10-12T23:02:17+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004028s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `auth_group` LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'title' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002580s ]
+
+[ 2016-10-12T23:02:57+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003983s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `auth_group` LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2] Illegal string offset 'id' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'id' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'id' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'id' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003700s ]
+
+[ 2016-10-12T23:02:59+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008250s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `auth_group` LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+NOTIC: [2] Illegal string offset 'id' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'id' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'id' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+NOTIC: [2] Illegal string offset 'id' D:\AppServ\www\Shopping\App\Runtime\Cache\Admin\f36d232fff83a72388ca95ad730a232d.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003420s ]
+
+[ 2016-10-12T23:09:16+08:00 ] 127.0.0.1 /Shopping/index.php/Admin/User/UserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005709s ]
+ERR: Think\Controller:getAuthList方法不存在！
+

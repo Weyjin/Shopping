@@ -1,0 +1,10 @@
+<extend name="Shared/_Layout"/>
+<block name="title">用户组列表</block>
+
+<block name="RenderBody">
+
+    <foreach name="users" item="u">
+        {$u.id}
+    </foreach>
+
+</block>

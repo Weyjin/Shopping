@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+<meta charset="UTF-8">
+<title>
+    <block name="title">这里是需要引用的标题</block>
+</title>
+<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="__PUBLIC__/js/jquery-3.1.0.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<block name="link"></block>
+</head>
+<body>
+
+<ul class="nav nav-pills" style="margin:20px;">
+    <li class="active"><a href="{:U('Admin/Index/index')}">首页</a></li>
+
+    <li><a href="{:U('Admin/User/MemberList')}">会员列表</a></li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            产品管理 <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="{:U('Admin/ProductCategories/addProductCategories')}">添加产品分类</a></li>
+            <li><a href="{:U('Admin/Products/addProducts')}">添加产品</a></li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            权限管理 <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="{:U('Admin/User/addRoles')}">添加角色</a></li>
+            <li><a href="{:U('Admin/User/PageDescription')}">页面说明</a></li>
+            <li><a href="#">访问控制</a></li>
+        </ul>
+    </li>
+    <li><a href="{:U('Admin/User/logout')}">注销</a></li>
+</ul>
+<hr/>
+<center>
+    <div class="container">
+        <block name="RenderBody">这里是需要替换的内容</block>
+    </div>
+</center>
+</body>
+</html>

@@ -1,0 +1,1936 @@
+[ 2016-10-11T21:10:12+08:00 ] 127.0.0.1 /Shopping/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.069576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.072768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.073161s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.095173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.095742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.085517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.086070s ]
+
+[ 2016-10-11T21:10:24+08:00 ] 127.0.0.1 /Shopping/Home/Products/addProducts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003999s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0880s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.009615s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.818495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.818903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004338s ]
+
+[ 2016-10-11T21:14:48+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006902s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000757s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004740s ]
+
+[ 2016-10-11T21:14:51+08:00 ] 127.0.0.1 /Shopping/index.php/Home/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005355s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002329s ]
+
+[ 2016-10-11T21:15:07+08:00 ] 127.0.0.1 /Shopping/index.php/Home/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003964s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000799s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003609s ]
+
+[ 2016-10-11T21:15:09+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003968s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000630s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003110s ]
+
+[ 2016-10-11T21:25:48+08:00 ] 127.0.0.1 /Shopping/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000482s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.268534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.269044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003201s ]
+
+[ 2016-10-11T21:25:53+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000902s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003889s ]
+
+[ 2016-10-11T21:25:56+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005232s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000773s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002709s ]
+
+[ 2016-10-11T21:33:49+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004716s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000811s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003597s ]
+
+[ 2016-10-11T22:10:16+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000911s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.197210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.197661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006113s ]
+
+[ 2016-10-11T22:11:03+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000701s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003058s ]
+
+[ 2016-10-11T22:12:29+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000636s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004598s ]
+
+[ 2016-10-11T22:13:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004247s ]
+
+[ 2016-10-11T22:13:35+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001695s ]
+
+[ 2016-10-11T22:14:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001822s ]
+
+[ 2016-10-11T22:14:42+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003709s ]
+
+[ 2016-10-11T22:14:50+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000841s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.216373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003184s ]
+
+[ 2016-10-11T22:15:36+08:00 ] 127.0.0.1 /Shopping/index.php/Home/OrderHeader/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000696s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002847s ]
+
+[ 2016-10-11T22:18:41+08:00 ] 127.0.0.1 /Shopping/index.php/Home/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004199s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003120s ]
+
+[ 2016-10-11T22:18:44+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003879s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002704s ]
+
+[ 2016-10-11T22:18:46+08:00 ] 127.0.0.1 /Shopping/index.php/Home/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004444s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002685s ]
+
+[ 2016-10-11T22:18:48+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003994s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000656s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003296s ]
+
+[ 2016-10-11T22:18:58+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003388s ]
+
+[ 2016-10-11T22:27:28+08:00 ] 127.0.0.1 /Shopping/index.php/Home/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006295s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004195s ]
+
+[ 2016-10-11T22:36:53+08:00 ] 127.0.0.1 /Shopping/index.php/Home/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005140s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000532s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003532s ]
+
+[ 2016-10-11T22:37:00+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003679s ]
+
+[ 2016-10-11T22:37:18+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004101s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002578s ]
+
+[ 2016-10-11T22:37:28+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003852s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000979s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004006s ]
+
+[ 2016-10-11T22:37:36+08:00 ] 127.0.0.1 /Shopping/index.php/Home/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004376s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003770s ]
+
+[ 2016-10-11T22:37:47+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003144s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000698s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003097s ]
+
+[ 2016-10-11T22:37:50+08:00 ] 127.0.0.1 /Shopping/index.php/Home/ProductCategories/addProductCategories.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003437s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000582s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002661s ]
+
+[ 2016-10-11T22:38:04+08:00 ] 127.0.0.1 /Shopping/index.php/Home/ProductCategories/addProductCategoriesHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003351s ]
+NOTIC: [8192] Non-static method Home\Common\NetAddress::getLocalHost() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 23 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\AppServ\www\Shopping\App\Home\Common\NetAddress.class.php 第 16 行.
+NOTIC: [8192] Non-static method Home\Common\System::currentTimeMillis() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\AppServ\www\Shopping\App\Home\Common\System.class.php 第 13 行.
+NOTIC: [8192] Non-static method Home\Common\Random::nextLong() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: validate D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `productcategories` (`id`,`name`,`sortid`) VALUES ('098724CB-3C61-80CA-5710-AAD33BB382AC','体育用品','2') [ RunTime:0.0118s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002692s ]
+
+[ 2016-10-11T22:38:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/ProductCategories/addProductCategoriesHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003109s ]
+NOTIC: [8192] Non-static method Home\Common\NetAddress::getLocalHost() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 23 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\AppServ\www\Shopping\App\Home\Common\NetAddress.class.php 第 16 行.
+NOTIC: [8192] Non-static method Home\Common\System::currentTimeMillis() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\AppServ\www\Shopping\App\Home\Common\System.class.php 第 13 行.
+NOTIC: [8192] Non-static method Home\Common\Random::nextLong() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `productcategories` (`id`,`name`,`sortid`) VALUES ('1AF68FD7-88E5-F833-C606-CAA9A5080239','家电','3') [ RunTime:0.0099s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003117s ]
+
+[ 2016-10-11T22:38:27+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004046s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003116s ]
+
+[ 2016-10-11T22:42:54+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007535s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0030s ]
+
+[ 2016-10-11T22:43:07+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004115s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0095s ]
+
+[ 2016-10-11T22:44:02+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004130s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0119s ]
+ERR: 1054:Unknown column 'productcategories_productid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+ERR: 1054:Unknown column 'productcategories_productid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+
+[ 2016-10-11T22:44:29+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0055s ]
+ERR: 1054:Unknown column 'productcategories_productids' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productids=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+ERR: 1054:Unknown column 'productcategories_productids' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productids=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+
+[ 2016-10-11T22:45:35+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005067s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0101s ]
+ERR: 1054:Unknown column '1AF68FD7' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+ERR: 1054:Unknown column '1AF68FD7' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+
+[ 2016-10-11T22:48:03+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006313s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0074s ]
+ERR: 1054:Unknown column '1AF68FD7' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+ERR: 1054:Unknown column '1AF68FD7' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+
+[ 2016-10-11T22:48:04+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003871s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0115s ]
+ERR: 1054:Unknown column '1AF68FD7' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+ERR: 1054:Unknown column '1AF68FD7' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+
+[ 2016-10-11T22:54:32+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005818s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0103s ]
+ERR: 1054:Unknown column '1AF68FD7' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+ERR: 1054:Unknown column '1AF68FD7' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+
+[ 2016-10-11T22:54:33+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005411s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0123s ]
+ERR: 1054:Unknown column '1AF68FD7' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+ERR: 1054:Unknown column '1AF68FD7' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `products` WHERE ( productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239 ) 
+
+[ 2016-10-11T22:55:52+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004136s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239'  [ RunTime:0.0097s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003218s ]
+
+[ 2016-10-11T22:55:55+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002571s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010805s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239'  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1'  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003133s ]
+
+[ 2016-10-11T22:56:04+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004912s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000639s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003869s ]
+
+[ 2016-10-11T22:56:23+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProductsHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003191s ]
+NOTIC: [8192] Non-static method Home\Common\NetAddress::getLocalHost() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 23 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\AppServ\www\Shopping\App\Home\Common\NetAddress.class.php 第 16 行.
+NOTIC: [8192] Non-static method Home\Common\System::currentTimeMillis() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\AppServ\www\Shopping\App\Home\Common\System.class.php 第 13 行.
+NOTIC: [8192] Non-static method Home\Common\Random::nextLong() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `products` ORDER BY sortid desc LIMIT 1   [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `products` (`id`,`name`,`description`,`color`,`publishon`,`price`,`productcategories_productsid`,`sortid`) VALUES ('9A350C1F-5737-878A-F5A2-A26975CA23E6','电视','啊啊','黑色','2016-10-11','2324','1AF68FD7-88E5-F833-C606-CAA9A5080239','3') [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002678s ]
+
+[ 2016-10-11T22:56:25+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005555s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000822s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004336s ]
+
+[ 2016-10-11T22:56:32+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003873s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239'  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1'  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003771s ]
+
+[ 2016-10-11T22:56:40+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006682s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003056s ]
+
+[ 2016-10-11T22:56:53+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003942s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000806s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003946s ]
+
+[ 2016-10-11T22:57:22+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProductsHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003589s ]
+NOTIC: [8192] Non-static method Home\Common\NetAddress::getLocalHost() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 23 行.
+NOTIC: [8] Undefined index: COMPUTERNAME D:\AppServ\www\Shopping\App\Home\Common\NetAddress.class.php 第 16 行.
+NOTIC: [8192] Non-static method Home\Common\System::currentTimeMillis() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\AppServ\www\Shopping\App\Home\Common\System.class.php 第 13 行.
+NOTIC: [8192] Non-static method Home\Common\Random::nextLong() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Common\Guid.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `products` ORDER BY sortid desc LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `products` (`id`,`name`,`description`,`color`,`publishon`,`price`,`productcategories_productsid`,`sortid`) VALUES ('CF308164-78B2-84E0-7DB8-CB1CC58973E1','风扇','a','白色','2016-10-11','23','1AF68FD7-88E5-F833-C606-CAA9A5080239','4') [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002557s ]
+
+[ 2016-10-11T22:57:24+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Products/addProducts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004717s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003262s ]
+
+[ 2016-10-11T22:57:31+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004536s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239'  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1'  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000867s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003773s ]
+
+[ 2016-10-11T23:00:59+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005658s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000835s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004158s ]
+
+[ 2016-10-11T23:01:02+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005377s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003481s ]
+
+[ 2016-10-11T23:02:18+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003836s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0032s ]
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 227 行.
+ERR: 1054:Unknown column 'Array' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(Array) AS tp_count FROM `products` LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(Array) AS tp_count FROM `products` LIMIT 1  
+
+[ 2016-10-11T23:03:34+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006474s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0026s ]
+NOTIC: [8] Array to string conversion D:\AppServ\www\Shopping\ThinkPHP\Library\Think\Model.class.php 第 227 行.
+ERR: 1054:Unknown column 'Array' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(Array) AS tp_count FROM `products` LIMIT 1  
+ERR: 1054:Unknown column 'Array' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(Array) AS tp_count FROM `products` LIMIT 1  
+
+[ 2016-10-11T23:04:42+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004009s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `products` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `products` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `products` LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000606s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003653s ]
+
+[ 2016-10-11T23:05:10+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004411s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0093s ]
+ERR: 1054:Unknown column '1AF68FD7' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239) AS tp_count FROM `products` LIMIT 1  
+ERR: 1054:Unknown column '1AF68FD7' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(productcategories_productsid=1AF68FD7-88E5-F833-C606-CAA9A5080239) AS tp_count FROM `products` LIMIT 1  
+
+[ 2016-10-11T23:08:13+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005382s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000727s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004520s ]
+
+[ 2016-10-11T23:28:37+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002284s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2016-10-11T23:28:39+08:00 ] 127.0.0.1 /Shopping/index.php/Home/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004941s ]
+ERR: 无法加载控制器:ProductList
+
+[ 2016-10-11T23:29:16+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2016-10-11T23:29:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004006s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0037s ]
+
+[ 2016-10-11T23:43:18+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004152s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0035s ]
+
+[ 2016-10-11T23:43:21+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004579s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0035s ]
+
+[ 2016-10-11T23:44:54+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005404s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0025s ]
+NOTIC: [8192] Non-static method Home\Common\Comm::getpage() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc LIMIT 0,10   [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003009s ]
+
+[ 2016-10-11T23:44:56+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004939s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0037s ]
+NOTIC: [8192] Non-static method Home\Common\Comm::getpage() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc LIMIT 0,10   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003332s ]
+
+[ 2016-10-11T23:44:59+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007277s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0035s ]
+NOTIC: [8192] Non-static method Home\Common\Comm::getpage() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc LIMIT 0,10   [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003661s ]
+
+[ 2016-10-11T23:45:06+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004225s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0040s ]
+NOTIC: [8192] Non-static method Home\Common\Comm::getpage() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc LIMIT 0,10   [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003391s ]
+
+[ 2016-10-11T23:45:24+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005286s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000817s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003156s ]
+
+[ 2016-10-11T23:45:26+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005592s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0037s ]
+NOTIC: [8192] Non-static method Home\Common\Comm::getpage() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc LIMIT 0,10   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000757s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003824s ]
+
+[ 2016-10-11T23:47:34+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006382s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0034s ]
+NOTIC: [8192] Non-static method Home\Common\Comm::getpage() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc LIMIT 0,10   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000770s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002951s ]
+
+[ 2016-10-11T23:47:37+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007622s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0046s ]
+NOTIC: [8192] Non-static method Home\Common\Comm::getpage() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000646s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003621s ]
+
+[ 2016-10-11T23:48:09+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005018s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000577s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000963s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003094s ]
+
+[ 2016-10-11T23:48:12+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003871s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0035s ]
+NOTIC: [8192] Non-static method Home\Common\Comm::getpage() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc LIMIT 0,10   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003448s ]
+
+[ 2016-10-11T23:49:02+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003503s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0042s ]
+NOTIC: [8192] Non-static method Home\Common\Comm::getpage() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000630s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003286s ]
+
+[ 2016-10-11T23:49:06+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009529s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0034s ]
+NOTIC: [8192] Non-static method Home\Common\Comm::getpage() should not be called statically, assuming $this from incompatible context D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002709s ]
+
+[ 2016-10-11T23:50:04+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007122s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003499s ]
+
+[ 2016-10-11T23:51:14+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003882s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004074s ]
+
+[ 2016-10-11T23:51:17+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006645s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003350s ]
+
+[ 2016-10-11T23:51:59+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004552s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002654s ]
+
+[ 2016-10-11T23:53:49+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005870s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: page D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003163s ]
+
+[ 2016-10-11T23:53:54+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003012s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: page D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003308s ]
+
+[ 2016-10-11T23:54:20+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004815s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002909s ]
+
+[ 2016-10-11T23:54:39+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003888s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0025s ]
+NOTIC: [8] Use of undefined constant page - assumed 'page' D:\AppServ\www\Shopping\App\Home\Controller\IndexController.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000428s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000930s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003171s ]
+
+[ 2016-10-11T23:56:02+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007496s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004515s ]
+
+[ 2016-10-11T23:56:06+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004637s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004039s ]
+
+[ 2016-10-11T23:56:13+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003356s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002751s ]
+
+[ 2016-10-11T23:57:51+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005197s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005716s ]
+
+[ 2016-10-11T23:58:17+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006354s ]
+SQL: SHOW COLUMNS FROM `productcategories` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `productcategories` ORDER BY sortid desc  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '098724CB-3C61-80CA-5710-AAD33BB382AC' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '298CD0A5-5A7E-B9D9-7174-B2A4EFC74BF1' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003409s ]
+
+[ 2016-10-11T23:58:19+08:00 ] 127.0.0.1 /Shopping/index.php/Home/Index/productList?id=1AF68FD7-88E5-F833-C606-CAA9A5080239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004279s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id`,`name`,`description`,`color`,`price`,`publishon`,`productcategories_productsid`,`sortid` FROM `products` WHERE `productcategories_productsid` = '1AF68FD7-88E5-F833-C606-CAA9A5080239' ORDER BY sortid desc  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003708s ]
+

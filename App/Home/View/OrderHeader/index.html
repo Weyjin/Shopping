@@ -1,0 +1,70 @@
+<!-- 引入模板页 -->
+<extend name="Shared/_Layout"/>
+<block name="title">结算订单</block>
+<block name="RenderBody">
+
+    <form role="form" method="post" class="form-horizontal" action="{:U('Home/OrderHeader/SettlementOrderHandle')}">
+    <div class="form-horizontal">
+
+        <div class="form-group">
+            <label class="control-label col-md-2">收件人姓名</label>
+            <div class="col-md-10">
+
+                <input type="text" name="ContactName" placeholder="*必填*" class="form-control"/>
+                <label class="col-md-2"></label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">电话号码</label>
+            <div class="col-md-10">
+
+                <input type="text" name="ContactPhoneNo" placeholder="*必填*" class="form-control"/>
+                <label class="col-md-2"></label>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">地址</label>
+            <div class="col-md-10">
+                <input type="text" name="ContactAddress" placeholder="*必填*" class="form-control"/>
+                <label class="col-md-2"></label>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">订单金额</label>
+            <div class="col-md-10">
+                <p style="height:20px;margin-top:7px;"name="total"><strong>¥{$total}</strong></p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">订单备注</label>
+            <div class="col-md-10">
+                <input type="text" name="Memo" placeholder="*可省略*" class="form-control"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">订购时间</label>
+            <div class="col-md-10">
+                <p style="height:20px;margin-top:8px;"><strong>{$time}</strong></p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="结算订单" class="btn-primary"/>
+            </div>
+        </div>
+    </div>
+         </form>
+    <style>
+        .col-md-10{
+            width:300px;
+        }
+    </style>
+</block>

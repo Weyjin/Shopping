@@ -1,0 +1,54 @@
+<!-- 引入模板页 -->
+<extend name="Shared/_Layout"/>
+<block name="title">页面控制</block>
+
+<block name="RenderBody">
+    <h1>{$title}</h1>
+    <hr/>
+    {$mQry}
+    <div class="form-group">
+        <br/>
+        <div class="col-md-offset-1">
+            <button id="btn_save">保存</button>
+        </div>
+    </div>
+    <script>
+        $(function () {
+
+           $('#btn_save').click(function () {
+
+               var rules="";
+               var id='{$group_id}';
+               $("input[name='checkbox']:checked").each(function() {
+                   rules+=$(this).val()+",";
+               });
+             var string=rules;
+
+               $.ajax({
+                   url:'{:U("Admin/User/setPageControlHandle")}',//后台的方法(url不能错误)
+                   type: 'post',//数据提交
+                   dataType: 'json',//后台返回的数据类型
+                   error:function (e) {
+                       alert(e.message);
+                   },
+                   success: function a(data) {
+                       if (data == "保存成功!") {
+                           alert(data);
+                       } else {
+                           alert(data);
+                           location.reload();
+                       }
+
+                   },
+                   data: {id:id,rules: string},//前端的传值
+               })
+
+
+           })
+
+        })
+
+
+    </script>
+
+</block>
